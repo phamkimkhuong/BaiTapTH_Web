@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+      }
+      .wapper {
+        width: 100%;
+        height: auto;
+      }
+      .header {
+        width: 100%;
+        height: auto;
+      }
+      .header div {
+        margin-top: 20px;
+        height: 1.1px;
+        background-color: dimgrey;
+      }
+      .content {
+        padding: 5px;
+        text-align: justify;
+        height: auto;
+      }
+      .content .pi {
+        display: flex;
+      }
+      .content .formula::after {
+        content: "(ix)";
+        position: absolute;
+        transform: translateY(-40%);
+      }
+      .content .pi .space::after {
+        content: "\220F";
+        position: absolute;
+        transform: translateY(-60%);
+      }
+      .clear {
+        clear: both;
+        height: 1.1px;
+        background-color: dimgrey;
+      }
+      .footer {
+        width: 100%;
+        height: auto;
+        padding-bottom: 2px;
+      }
+      .footer > p {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wapper">
+      <div class="header">
+        <img src="../images/euler.jpg" alt="" />
+        <div></div>
+      </div>
+      <div class="menu"></div>
+      <div class="content">
+        <div class="aside">
+          <h2>Leonhard Euler (1707-1783)</h2>
+          <p>
+            The greatest mathematician of the eighteenth century, Leonhard Euler
+            was born in Basel, Switzerland. There, he studied under another
+            giant of mathematics, Jean Bernoulli. In 1731 Euler became a
+            professor of physics and mathematics at St. Petersburg Academy of
+            Sciences. Euler was the most prolific mathematician of all time,
+            publishing over 800 different books and papers. His influence was
+            felt in physics and astronomy as well. Euler's work on mathematical
+            analysis, Introductio in analysin infinitorum (1748) remained a
+            standard textbook for well over a century. For the princess of
+            Anhalt-Dessau he wrote Lettres a une princesse d'Allemagne
+            (1768-1772), giving a clear non-technical outline of the main
+            physical theories of the time.
+          </p>
+          <p>
+            One can hardly do math without copying Euler. Notations still in use
+            today, such as e and pi, were introduced in Euler's writings. He is
+            perhaps best known for his research into mathematical analysis.
+            Euler's formula
+          </p>
+          <p class="formula">cos(x) + isin(x) = e</p>
+          <p>
+            demonstrates the relationship between algebra, complex analysis, and
+            trigonometry. From this equation, it's easy to derive the equation
+          </p>
+          <div class="pi">
+            <div>e</div>
+            <div class="space"></div>
+            <div>&ensp; &nbsp; + 1 = 0</div>
+          </div>
+          <p>
+            which relates the fundamental constants: 0, 1, &#8719;, e, and i in
+            a single beautiful and elegant statement.
+          </p>
+          <p>
+            Leonhard Euler died in 1783, leaving behind a legacy perhaps
+            unmatched, and certainly unsurpassed, in the annals of mathematics.
+          </p>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="footer">
+        <p>Math 895: The History of Mathematics</p>
+      </div>
+    </div>
+  </body>
+</html>

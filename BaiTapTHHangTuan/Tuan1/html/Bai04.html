@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamond Health Club of Seattle</title>
+    <!--
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 2
+   Case Problem 3
+
+   Diamond Health Club Home Page
+   Author:
+   Date:
+
+   Filename:         home.htm
+   Supporting files: diamond.jpg
+-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 10px;
+      }
+      img {
+        width: 548px;
+        height: 150px;
+      }
+      .title {
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="../images/diamond.jpg" alt="Diamond" usemap="#diamondmap" />
+    <map id="diamondmap" name="diamond map">
+      <area
+        shape="rect"
+        coords="225,7,333,40"
+        href=""
+        alt="class"
+        title="View our classes"
+      />
+      <area
+        shape="rect"
+        coords="258,44,437,82"
+        href=""
+        alt="Members Ships"
+        title="View our classes"
+      />
+      <area
+        shape="default"
+        coords="0,0,x,y"
+        href="index.html"
+        alt="Home Page"
+        title="Return to the Home page"
+      />
+    </map>
+    <hr />
+    <b class="title">We've Moved!</b>
+    <p>
+      The Diamond Health Club Web site has moved. You will be redirected within
+      a few seconds to the new site. Please update your links and bookmarks.
+    </p>
+    <p>
+      If you are not redirected, please click this link to our new Web site.
+    </p>
+    <hr />
+    <div>
+      <b
+        >Diamond Health Club &#9830; 4317 Alvin Way &#9830; Boise, ID 83701
+        &#9830; (208) 555-4398</b
+      >
+      <br />
+      <i> Your Year-Round Source for Fun Family Health </i>
+    </div>
+  </body>
+</html>
