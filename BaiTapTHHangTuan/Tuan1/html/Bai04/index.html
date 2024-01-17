@@ -33,6 +33,13 @@
       .content div {
         padding-top: 20px;
       }
+      .content .facilities {
+        list-style: inherit;
+        padding-left: 20px;
+      }
+      .content .hours {
+        list-style: none;
+      }
       .information {
         list-style-type: none;
         padding-bottom: 20px;
@@ -46,7 +53,31 @@
   </head>
   <body>
     <div class="wrapper">
-      <img src="../images/diamond.jpg" alt="" />
+      <img src="../Bai04/diamond.jpg" alt="Diamond" usemap="#diamondmap" />
+      <map id="diamondmap" name="diamond map">
+        <area
+          shape="rect"
+          coords="225,7,333,40"
+          href="../Bai04/home.html"
+          alt="class"
+          title="View our classes"
+        />
+        <area
+          shape="rect"
+          coords="258,44,437,82"
+          href="../Bai04/member.html"
+          alt="Members Ships"
+          title="View our classes"
+        />
+        <area
+          shape="default"
+          coords="0,0,x,y"
+          href="../Bai04/index.html"
+          alt="Home Page"
+          title="Return to the Home page"
+        />
+      </map>
+
       <hr />
       <div class="menu">
         <ul class="menu-content">
@@ -83,7 +114,7 @@
         </div>
         <div style="font-weight: bold">Facilities</div>
         <div>
-          <ul>
+          <ul class="facilities">
             <li>2 workout rooms</li>
             <li>Olympic size pool with at least 3 lanes always open</li>
             <li>Warm, 3-foot deep therapeutic pool</li>
@@ -96,7 +127,7 @@
         </div>
         <div style="font-weight: bold">Hours</div>
         <div>
-          <ul>
+          <ul class="hours">
             <li>Mon - Fri: 5 a.m to 11 p.m.</li>
             <li>Sat: 7 a.m. to 8 p.m.</li>
             <li>Sun: 8 a.m. - 5 p.m.</li>
@@ -107,12 +138,29 @@
         </div>
         <div>
           <ul class="information">
-            <li>Ty Stoven, General Manager</li>
-            <li>Yosef Dolen, Assistant Manager</li>
-            <li>Sue Myafin, Child Care</li>
-            <li>James Michel, Health Services</li>
-            <li>Ron Chi, Membership</li>
-            <li>Marcia Lopez, Classes</li>
+            <li>
+              Ty Stoven, General Manager:
+              <a href="">tstoven@dmond-health.com</a>
+            </li>
+            <li>
+              Yosef Dolen, Assistant Manager:
+              <a href="">ydolen @dmond-health.com</a>
+            </li>
+            <li>
+              Sue Myafin, Child Care <a href="">smyafin @dmond-health.com</a>
+            </li>
+            <li>
+              James Michel, Health Services:
+              <a href="">jmichel @dmond-health.com</a>
+            </li>
+            <li>
+              Ron Chi, Membership:
+              <a href=""> rchi @dmond-health.com </a>
+            </li>
+            <li>
+              Marcia Lopez, Classes:
+              <a href=""> mlopez@dmond-health.com</a>
+            </li>
           </ul>
         </div>
         <hr />
