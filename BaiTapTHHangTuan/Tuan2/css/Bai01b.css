@@ -1,0 +1,54 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+  text-shadow: 20px 15px 30px;
+}
+.menu ul {
+  margin-top: 20px;
+  list-style-type: none;
+  background-color: rgb(210, 139, 89);
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+
+  border-right: 1px solid black;
+}
+.menu ul li:last-child {
+  display: inline-block;
+  width: 300px;
+  border: none;
+}
+.menu ul li a {
+  text-decoration: none;
+}
+.menu ul li img {
+  width: auto;
+  height: 20px;
+  vertical-align: text-bottom;
+}
+.starter div,
+.desserts div {
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(226, 18, 18);
+  background-color: rgb(231, 225, 182);
+}
+.starter a,
+.desserts a {
+  font-weight: bold;
+  color: rgb(226, 18, 18);
+}

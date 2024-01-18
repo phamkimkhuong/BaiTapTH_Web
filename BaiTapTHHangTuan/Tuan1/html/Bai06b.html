@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .wrapper,
+      .conntent {
+        width: 100%;
+        height: auto;
+      }
+      form {
+        width: 100%;
+        height: auto;
+        padding: 10px 10px 0px 10px;
+      }
+      legend {
+        margin: 0;
+      }
+      table tr td {
+        height: auto;
+        padding-left: 10px;
+      }
+      #news {
+        /* margin-bottom: 100px; */
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="conntent">
+        <form action="">
+          <fieldset>
+            <legend>Your message</legend>
+            <table>
+              <tr>
+                <td><label for="to">To</label></td>
+                <td><input type="text" name="name" id="to" /></td>
+              </tr>
+              <tr>
+                <td><label for="email">Your Email</label></td>
+                <td><input type="text" name="email" id="email" /></td>
+              </tr>
+              <tr>
+                <td><label for="message">Message</label></td>
+                <td>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="attach">Attach File</label></td>
+                <td><input type="file" /></td>
+              </tr>
+            </table>
+          </fieldset>
+          <fieldset>
+            <legend>How you found us:</legend>
+            <table>
+              <tr>
+                <td><label for="hear">How did you hear of us</label></td>
+                <td>
+                  <select name="hear" id="hear" style="width: auto">
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="advert">Advert</option>
+                    <option value="other">Other</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="news">Newsletter</label></td>
+                <td>
+                  <input type="checkbox" name="news" id="news" />Ensure this box
+                  id checked if you would like to receive email updates
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+          <input type="submit" value="Send Message" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

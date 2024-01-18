@@ -1,0 +1,149 @@
+* {
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(235, 47, 14);
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 10px 10px 20px;
+}
+menu ul {
+  margin-top: 1%;
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  background-color: rgb(246, 194, 214);
+  text-align: center;
+}
+menu li {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid rgb(90, 88, 88);
+}
+menu li:last-child {
+  width: 350px;
+  border: none;
+}
+menu li a {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+}
+menu img {
+  color: rgb(7, 4, 4);
+  height: 20px;
+}
+menu ul li a:hover {
+  background-color: rgb(193, 188, 188);
+  color: rgb(7, 4, 4);
+}
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 0px;
+}
+.aside {
+  padding: 0px;
+  width: 20%;
+  padding: 0px;
+  display: inline-block;
+}
+.aside ul {
+  list-style-type: none;
+}
+.aside li {
+  height: 60px;
+  line-height: 60px;
+  border-radius: 40px;
+  margin-top: 15px;
+  padding-left: 10px;
+  font-weight: 600;
+  border: 1px solid rgb(90, 88, 88);
+  background-color: rgb(235, 119, 164);
+  color: #fdfdfd;
+}
+.content .aside img {
+  border-radius: 100%;
+  box-shadow: 10px 10px 20px rgb(227, 156, 156);
+  width: 100%;
+  margin-top: 15px;
+}
+.center {
+  margin-top: 15px;
+  width: 55%;
+}
+.center .starter > div {
+  width: 70%;
+  height: auto;
+  text-align: left;
+  font-weight: bold;
+  font-size: x-large;
+  background-color: rgb(242, 136, 136);
+  letter-spacing: 7px;
+}
+form {
+  padding-left: 10px;
+  width: 100%;
+  height: auto;
+}
+form div input {
+  display: inline-block;
+  height: auto;
+}
+.starter .text {
+  width: 45%;
+  height: 30px;
+  margin-top: 10px;
+}
+textarea {
+  width: 90%;
+}
+.starter li {
+  margin-left: 30px;
+}
+.section {
+  margin-top: 15px;
+  width: 25%;
+  color: seashell;
+  background-color: black;
+}
+.section img,
+form div {
+  width: 100%;
+}
+.section .event {
+  font-size: x-large;
+  font-weight: 600;
+}
+.regular,
+.product {
+  padding: 20px;
+}
+.regular div:first-child,
+.product div:first-child {
+  font-weight: bolder;
+}
+.clear {
+  clear: both;
+}
+footer {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  font-size: large;
+  background-color: rgb(185, 92, 132);
+}

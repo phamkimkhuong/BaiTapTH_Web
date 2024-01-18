@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0 auto;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .wrapper {
+        width: 100%;
+        height: auto;
+        background-color: rgb(154, 200, 229);
+      }
+      .header {
+        width: 250px;
+        height: auto;
+        background-color: aqua;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 6px 6px 0px 0px rgb(159, 159, 159);
+      }
+      .header div {
+        width: 100%;
+        font-weight: bold;
+        font-size: xx-large;
+        text-align: center;
+      }
+      .header div:nth-child(1) {
+        border-bottom: 3px solid black;
+      }
+      .conntent {
+        width: 100%;
+        height: auto;
+        padding-left: 10%;
+      }
+      form {
+        width: 100%;
+        height: auto;
+      }
+      form h2 {
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+      }
+      form div {
+        margin-bottom: 10px;
+      }
+      form div > label:first-child {
+        width: 150px;
+        display: inline-block;
+      }
+      form div > label:not(:first-child) {
+        width: 150px;
+        height: auto;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div>Jackson</div>
+        <div>Electronics</div>
+      </div>
+      <div class="conntent">
+        <form action="">
+          <h2>Registration Form</h2>
+          <p style="text-align: center">
+            Register your Jackson Electronics product here
+          </p>
+          <div>
+            <label for="fistName">First Name</label>
+            <input type="text" name="fistName" id="fistName" />
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
+          <div>
+            <label for="address">Address #1:</label>
+            <input type="text" name="address" id="address" />
+          </div>
+          <div>
+            <label for="address2">Address #2:</label>
+            <input type="text" name="address2" id="address2" />
+          </div>
+          <div>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" />
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state" />
+            <label for="zip">Zip:</label>
+            <input type="text" name="zip" id="zip" />
+          </div>
+          <div>
+            <label for="country">Country:</label>
+            <input type="text" name="country" id="country" />
+          </div>
+          <hr />
+          <div>
+            <label for="product">Product</label>
+            <select name="product" id="product">
+              <option value="1">ScanMaster</option>
+              <option value="2">Remote Control</option>
+              <option value="3">Tape Recorder</option>
+              <option value="4">Cassette Player</option>
+              <option value="5">Record Player</option>
+            </select>
+          </div>
+          <div>
+            <label for="date">Date Purchased:</label>
+            <input type="text" name="date" id="date" />
+          </div>
+          <div>
+            <label for="serial">Serial #:</label>
+            <input type="text" name="serial" id="serial" />
+          </div>
+          <div>
+            <label for="user">Used for:</label>
+            <input type="radio" name="user" id="home" />
+            <label for="home">Home</label>
+            <input type="radio" name="user" id="education" />
+            <label for="education">Education Institution</label>
+            <input type="radio" name="user" id="business" />
+            <label for="business">Business</label>
+            <input type="radio" name="home" id="govemment" />
+            <label for="govemment">Govemment</label>
+            <input type="radio" name="user" id="other" />
+            <label for="other">Other</label>
+          </div>
+          <div>
+            <label for="system">System (check all that apply):</label>
+            <input type="checkbox" name="system" id="window" />
+            <label for="window">Windows</label>
+            <input type="checkbox" name="system" id="unix" />
+            <label for="unix">Unix</label>
+            <input type="checkbox" name="system" id="mac" />
+            <label for="mac">Macintosh</label>
+            <input type="checkbox" name="system" id="other" />
+            <label for="other">Other</label>
+          </div>
+          <hr />
+          <div>
+            <label style="vertical-align: top" for="comments">Comments:</label>
+            <textarea
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Click to register" />
+            <input type="reset" value="Click to cancel" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

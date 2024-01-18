@@ -14,15 +14,16 @@
         width: 100%;
         height: auto;
       }
-      .conntent table td {
-        width: 100%;
+      .conntent table,
+      th,
+      td {
         height: auto;
-        border: 1px solid black;
+        border: 1px solid dimgray;
+        border-collapse: collapse;
       }
       .conntent table tr td:first-child {
         font-weight: bold;
         text-align: center;
-        background-color: aqua;
       }
       .clear {
         clear: both;
@@ -40,14 +41,14 @@
       <div class="conntent">
         <figure>
           <figcaption style="text-align: center">Class Movie Day</figcaption>
-          <table>
+          <table style="width: 100%">
             <th>
               <tr>
-                <td></td>
-                <td>5 pm</td>
-                <td>7 pm</td>
-                <td>9 pm</td>
-                <td>11 pm</td>
+                <th style="width: 10%"></th>
+                <th>5 pm</th>
+                <th>7 pm</th>
+                <th style="width: 30%">9 pm</th>
+                <th>11 pm</th>
               </tr>
               <tr>
                 <td>Screen one</td>
@@ -58,12 +59,12 @@
               </tr>
               <tr>
                 <td>Screen two</td>
-                <td>Dances with Wolves</td>
-                <td>Gone With the Wind</td>
+                <td colspan="2">Dances with Wolves</td>
+                <td colspan="2">Gone With the Wind</td>
               </tr>
               <tr>
                 <td>Screen three</td>
-                <td>2110: A Space Odyssey</td>
+                <td colspan="2">2110: A Space Odyssey</td>
                 <td>The Conversation</td>
                 <td>% Easy Pieces</td>
               </tr>
