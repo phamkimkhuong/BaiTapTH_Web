@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: url(/Tuan2/images/background.jpg);
+}
+header {
+  padding: 10px;
+}
+#links {
+  float: left;
+  height: auto;
+  display: inline-block;
+}
+#links ul {
+  list-style-type: none;
+  margin-left: 10px;
+  background-color: aliceblue;
+  display: inline-block;
+  box-shadow: 4px 4px 3px 4px #ccc;
+}
+#links ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#links ul li a {
+  text-decoration: none;
+  color: rgb(199, 28, 130);
+}
+#links ul li a:hover {
+  color: rgb(40, 19, 225);
+}
+#links ul li a:active {
+  color: rgb(40, 19, 225);
+}
+#links ul li a:visited {
+  color: rgb(40, 19, 225);
+}
+#links,
+#noidung {
+  display: inline-block;
+}
+#noidung {
+  margin-left: 20px;
+  border-left: 1px solid #45e905;
+  padding-left: 15px;
+  width: 850px;
+}
+#noidung .welcome {
+  width: 600px;
+  margin-bottom: 15px;
+  background-color: rgb(27, 90, 9);
+  font-size: xx-large;
+  letter-spacing: 15px;
+  font-style: italic;
+  text-indent: 30px;
+}
+.text-images {
+  display: flex;
+}
+.hours,
+.directions {
+  width: 350px;
+  margin: 15px 0px 15px 0px;
+  background-color: rgb(27, 90, 9);
+  font-weight: bold;
+  text-indent: 10px;
+}
+#noidung .container p {
+  margin-bottom: 20px;
+}
+.hours_list,
+.directions_list {
+  padding-left: 50px;
+}
+address {
+  margin-top: 20px;
+  border-top: 4px solid #0fe728;
+  text-align: center;
+  padding: 20px;
+}
