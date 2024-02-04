@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  /* font-size: 11px; */
+}
+.wrapper {
+  width: 800px;
+}
+header > div:first-child {
+  background-color: rgb(173, 76, 21);
+  padding: 15px 0px;
+  font-size: xx-large;
+  color: rgb(132, 119, 3);
+  font-weight: bold;
+  text-indent: 20px;
+  word-spacing: 8px;
+  text-shadow: 4px 3px 3px #e1dcdc;
+}
+header .logo {
+  width: 100%;
+  height: 100px;
+  background: url(../images/line.png);
+  background-size: contain;
+}
+nav ul {
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+}
+nav ul li {
+  display: inline;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(165, 132, 108);
+  font-size: 14px;
+  padding: 10px 15px;
+}
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(173, 76, 21);
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+main aside h1 {
+  text-indent: 5px;
+  color: rgb(165, 132, 70);
+}
+aside {
+  border-right: 1px solid rgb(111, 108, 108);
+}
+aside p,
+form {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+main aside p {
+  color: rgb(165, 132, 70);
+  font-style: italic;
+  font-weight: 600;
+  padding-top: 20px;
+}
+form > div input {
+  width: 450px;
+  padding: 20px 0px 10px 0px;
+  border: none;
+  border-bottom: 1px solid rgb(140, 139, 138);
+}
+::placeholder {
+  color: rgb(109, 107, 107);
+  text-indent: 5px;
+}
+.sign-up {
+  background-color: rgb(128, 129, 0);
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  color: #fffefe;
+  margin-top: 30px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding: 30px 20px 20px 30px;
+}
+section .top {
+  padding: 0px 20px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: rgb(250, 235, 216);
+}
+section h1 {
+  color: rgb(92, 73, 75);
+}
+section .top ul {
+  color: rgb(223, 135, 34);
+  padding-left: 30px;
+  padding-top: 30px;
+}
+section .top ul li {
+  padding: 3px 0px;
+}
+section .bottom {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+section .bottom h1 {
+  margin-bottom: 20px;
+}
+.bottom div img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.bottom div p {
+  word-spacing: 5px;
+}
+section .bottom img {
+  width: 80px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid rgb(159, 156, 156);
+}
+footer {
+  width: 100%;
+  height: 40px;
+}
+footer img {
+  height: 20px;
+}
+footer > div {
+  float: left;
+}
+footer > div:nth-child(2) {
+  width: 80%;
+  height: 100%;
+}
+footer > div:nth-child(2) p {
+  text-align: center;
+}
+footer > div:nth-child(1),
+footer > div:nth-child(3) {
+  width: 10%;
+  height: 100%;
+}
+footer .footer-img {
+  height: 20px;
+  width: 100%;
+  background: url(../images/footer.png);
+  background-size: contain;
+}
