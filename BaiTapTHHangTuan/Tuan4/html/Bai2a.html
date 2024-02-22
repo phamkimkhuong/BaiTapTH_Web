@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/Bai02a.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="checkout">
+        <p>Checkout</p>
+        <hr />
+        <div class="product">
+          <div>
+            <b>Product1</b>
+            <div class="text-muted">Lorem ipsum dolor sit amet</div>
+          </div>
+          <div>$200</div>
+        </div>
+        <div class="product pro2">
+          <div>
+            <b>Product2</b>
+            <div class="text-muted">Lorem ipsum dolor sit amet</div>
+          </div>
+          <div>$120</div>
+        </div>
+        <hr />
+        <div class="product">
+          <div>
+            <b>Total</b>
+          </div>
+          <div>$320</div>
+        </div>
+      </div>
+      <form action="" class="form">
+        <h3>Credit Card Details</h3>
+        <hr>
+        <div class="row">
+          <div class="col-7">
+            <div class="md-3 form-group">
+              <label for="name" class="form-label">CARD HOLDER</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Card Holder Name"
+              />
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="md-3 form-group">
+              <label for="">EXPIRATION DATE</label>
+              <div class="date">
+                <input
+                  type="number"
+                  class="form-control"
+                  name=""
+                  id=""
+                  placeholder="MM"
+                />
+                <div>/</div>
+                <input
+                  type="number"
+                  class="form-control"
+                  name=""
+                  id=""
+                  placeholder="YY"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-8">
+              <div class="md-3 form-group">
+                <label for="cardNumber" class="form-label">CARD NUMBER</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="cardNumber"
+                  placeholder="Card Number"
+                />
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="md-3 form-group">
+                <label for="cvc" class="form-label">CVC</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="cvc"
+                  placeholder="CVC"
+                />
+              </div>
+          </div>
+        </div> 
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Proceed</button>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

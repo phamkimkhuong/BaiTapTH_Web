@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.product b {
+  margin-bottom: 0;
+}
+.pro2 {
+  margin-top: 10px;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+.checkout {
+  background-color: rgb(249, 245, 245);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
