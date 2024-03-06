@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-center">
+      <button
+        type="button"
+        class="btn btn-light"
+        data-bs-toggle="modal"
+        data-bs-target="#login"
+      >
+        Đăng Nhập
+      </button>
+      <div class="modal fade" id="login">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="title">Đăng Nhập</div>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="" class="was-validated">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Họ tên"
+                    required
+                  />
+                  <div class="valid-feedback">Sure!</div>
+                  <div class="row">
+                    <div class="col-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Số điện thoại"
+                        required
+                      />
+                      <div class="invalid-feedback">Please in number</div>
+                    </div>
+                    <div class="col-6">
+                      <select name="gender" id="" class="form-select">
+                        <option selected>Chọn giới tính</option>
+                        <option value="1">Nam</option>
+                        <option value="2">Nu</option>
+                      </select>
+                    </div>
+                  </div>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                  <div class="valid-feedback">sure!</div>
+                  <div class="row">
+                    <div class="col-6">
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Mật khẩu"
+                        required
+                      />
+                      <div class="invalid-feedback">Please in password</div>
+                    </div>
+                    <div class="col-6">
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Nhập lại mật khẩu"
+                        required
+                      />
+                      <div class="invalid-feedback">Please in password</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <select name="" id="" class="form-select">
+                        <option selected>Chọn Thành Phố</option>
+                        <option value="1">Hà Nội</option>
+                        <option value="2">Hồ Chí Minh</option>
+                        <option value="3">Đà Nẵng</option>
+                        <option value="4">Hải Phòng</option>
+                      </select>
+                      <div class="invalid-feedback">Please in city</div>
+                    </div>
+                    <div class="col-6">
+                      <select name="" id="" class="form-select">
+                        <option selected>Quận</option>
+                        <option value="1">Gò Vấp</option>
+                        <option value="2">12</option>
+                        <option value="3">1</option>
+                        <option value="4">2</option>
+                      </select>
+                      <div class="invalid-feedback">Please in quận</div>
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Địa Chỉ"
+                    />
+                    <input
+                      type="date"
+                      class="form-control"
+                      placeholder="Chọn ngày (dd/mm/yyyy)"
+                    />
+                  </div>
+                  
+                    <input type="checkbox" name="chinhsach" id="">
+                    <label for="chinhsach" class="form-lable"
+                      >Tôi đã đọc và đồng ý với <b>CHÍNH SÁCH</b> của chương
+                      trình</label
+                    >
+                  
+                  <div class="row">
+                    <button type="submit" class="btn btn-danger">
+                      Đăng Ký
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
