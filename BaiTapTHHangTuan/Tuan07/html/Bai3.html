@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/jquery-3.7.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </head>
+  <style>
+    [class*="col-"] {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    tr > td:first-child {
+      text-align: right;
+    }
+  </style>
+  <body>
+    <div class="container-fluid bg-success">
+      <div class="text-center col-md-12 col-12">Register Form</div>
+      <div class="col-md-12 col-12">
+        <form action="" class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="col-4">
+                  <label for="name">Họ và tên (*):</label>
+                </td>
+                <td>
+                  <input type="text" name="name" id="name" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="tenDN">Tên Đăng Nhập (*):</label>
+                </td>
+                <td>
+                  <input type="text" name="tenDN" id="tenDN" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="pass">Mật Khẩu (*):</label>
+                </td>
+                <td>
+                  <input type="password" name="pass" id="pass" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="repass">Nhập Lại Mật Khẩu (*):</label>
+                </td>
+                <td>
+                  <input
+                    type="password"
+                    name="repass"
+                    id="repass
+                  "
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="date">Ngày sinh</label>
+                </td>
+                <td>
+                  <input type="number" name="" id="" />
+                  Tháng
+                  <input type="number" name="" id="" />
+                  Năm
+                  <input type="number" name="" id="" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="phone">Điện Thoại (*):</label>
+                </td>
+                <td>
+                  <input type="text" name="phone" id="phone" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="address">Địa chỉ (*):</label>
+                </td>
+                <td>
+                  <input type="text" name="address" id="address" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email khác (*):</label>
+                </td>
+                <td>
+                  <input type="email" name="email" id="email" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="soThich">Sở thích (*):</label>
+                </td>
+                <td>
+                  <select name="" id="">
+                    <option value="1">Thể Thao</option>
+                    <option value="2">Du Lịch</option>
+                    <option value="3">Âm Nhạc</option>
+                    <option value="4">Đọc Sách</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input type="button" id="btnDK" value="Đăng Ký" />
+                  <input type="reset" value="Hủy" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+    <script src="../js/bai3.js"></script>
+  </body>
+</html>
