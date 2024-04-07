@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <script src="../js/jquery-3.7.1.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="col-md-12 col-12 row">
+        <form method="get" action="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td>Họ tên:</td>
+                <td>
+                  <input id="txtName" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td>Lớp:</td>
+                <td>
+                  <select class="form-control" name="select" id="select">
+                    <option>Đại học kỹ thuật phần mềm 9A</option>
+                    <option>Đại học kinh tế 9B</option>
+                    <option>Đại học cơ khí 10C</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Môn học:</td>
+                <td>
+                  <select class="form-control" name="select2" id="select2">
+                    <option>Lập trình hướng đói tượng</option>
+                    <option>Kỹ thuật lập trình</option>
+                    <option>Phát triển ứng dụng</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Loại:</td>
+                <td>
+                  <label class="form-check-label ml-3">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="radio"
+                      value="Lý thuyết"
+                      checked
+                    />
+                    Lý thuyết
+                  </label>
+                  <label class="form-check-label ml-4">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="radio"
+                      value="Thực hành"
+                    />
+                    Thực hành
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="button" id="btnDK" disabled value="Đăng ký" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+      <div class="col-md-12 col-12">
+        <table class="table" id="tbl">
+          <thead>
+            <tr>
+              <th>Họ tên</th>
+              <th>Lớp</th>
+              <th>Môn học đăng ký</th>
+              <th>Loại</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="../js/Bai3.js"></script>
+  </body>
 </html>
