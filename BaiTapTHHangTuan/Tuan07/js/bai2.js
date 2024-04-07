@@ -1,6 +1,6 @@
 var input = document.getElementById("txtMua");
 var txtBan = document.getElementById("txtBan");
-// input.focus();
+input.focus();
 var btnState = document.getElementById("btnState");
 var btnUpdate = document.getElementById("btnUpdate");
 btnState.disabled = true;
@@ -40,15 +40,13 @@ var muaUSD = document.getElementById("muaUSD");
 var banUSD = document.getElementById("banUSD");
 // chèn dữ liệu vào bảng
 btnUpdate.onclick = function () {
-  
-    if (radio.checked) {
-      if (radio.value == "USD") {
-          muaUSD.innerHTML = input.value;
-          banUSD.innerHTML = txtBan.value;
-        } else {
-        trBan.innerHTML = txtBan.value;
-          trMua.innerHTML = input.value;
-      }
-    
+  if (radio.checked) {
+    if (radio.value == "USD") {
+      muaUSD.innerHTML = input.value;
+      banUSD.innerHTML = txtBan.value;
+    } else {
+      trBan.innerHTML = txtBan.value;
+      trMua.innerHTML = input.value;
+    }
   }
 };

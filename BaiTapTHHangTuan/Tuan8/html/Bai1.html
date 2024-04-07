@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/jquery-3.7.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+      [class*="col-"] {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      tr > td:nth-child(3) {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h3 class="col-md-12 col-12 text-center">ĐĂNG KÝ TÀI KHOẢN</h3>
+      <div class="row d-flex justify-content-center">
+        <form action="">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td scope="row">Tên đăng nhập</td>
+                <td>
+                  <input required type="text" id="txtDN" placeholder="txtDN" />
+                </td>
+                <td id="one">*</td>
+              </tr>
+              <tr>
+                <td scope="row">Mật khẩu</td>
+                <td>
+                  <input
+                    required
+                    type="password"
+                    id="txtMK"
+                    placeholder="txtMK"
+                  />
+                </td>
+                <td id="tow">*</td>
+              </tr>
+              <tr>
+                <td scope="row">Nhập lại mật khẩu</td>
+                <td>
+                  <input
+                    required
+                    type="password"
+                    id="txtXNMK"
+                    placeholder="txtXNMK"
+                  />
+                </td>
+                <td id="three">*</td>
+              </tr>
+              <tr class="col-12">
+                <td></td>
+                <td><h5>Thông tin cá nhân</h5></td>
+              </tr>
+              <tr>
+                <td scope="row">Họ và tên</td>
+                <td>
+                  <input
+                    required
+                    type="text"
+                    id="txtName"
+                    placeholder="txtName"
+                  />
+                </td>
+                <td id="four">*</td>
+              </tr>
+              <tr>
+                <td scope="row">Ngày sinh</td>
+                <td>
+                  <input type="date" id="date" />
+                </td>
+                <td id="five">*</td>
+              </tr>
+              <tr>
+                <td scope="row">Giới tính</td>
+                <td>
+                  <input type="radio" name="gender" />Nam
+                  <input type="radio" name="gender" />Nữ
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">Địa chỉ</td>
+                <td>
+                  <input type="text" id="txtDC" placeholder="txtDC" />
+                </td>
+                <td id="six">*</td>
+              </tr>
+              <tr>
+                <td scope="row">Số điện thoại</td>
+                <td>
+                  <input type="text" id="txtSDT" placeholder="txtSDT" />
+                </td>
+                <td id="seven">*</td>
+              </tr>
+              <tr>
+                <td scope="row">Email</td>
+                <td>
+                  <input type="email" id="txtEmail" placeholder="txtEmail" />
+                </td>
+                <td id="eight">*</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input type="button" id="btnDK" value="Đăng ký" />
+                  <input type="reset" value="Hủy" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+    <script src="../js/Bai1.js"></script>
+  </body>
+</html>
